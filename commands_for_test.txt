@@ -1,0 +1,11 @@
+ Run Evaluation: python kitti_eval/eval_depth.py --kitti_dir=/cmlscratch/arjgpt27/projects/CMSC733/kitti_data/ --pred_file=/cmlscratch/arjgpt27/projects/CMSC733/output_depth/model-198784.npy
+
+ Generate Predictions: python test_kitti_depth.py --dataset_dir=/cmlscratch/arjgpt27/projects/CMSC733/kitti_data/ --output_dir=/cmlscratch/arjgpt27/projects/CMSC733/output_depth/ --ckpt_file=/cmlscratch/arjgpt27/projects/CMSC733/checkpoints_original/model-198784
+
+ Training: python train.py --dataset_dir=/cmlscratch/arjgpt27/projects/CMSC733/kitti_data_prep/ --checkpoint_dir=/cmlscratch/arjgpt27/projects/CMSC733/checkpoints_original_adaptive_lr --img_width=416 --img_height=128 --batch_size=4
+
+ Prep data: python data/prepare_train_data.py --dataset_dir=/cmlscratch/arjgpt27/projects/CMSC733/kitti_data/ --dataset_name='kitti_raw_eigen' --dump_root=/cmlscratch/arjgpt27/projects/CMSC733/kitti_data_prep/ --seq_length=3 --img_width=416 --img_height=128 --num_threads=4
+
+ Pose Testing: python test_kitti_pose.py --dataset_dir=/cmlscratch/arjgpt27/projects/CMSC733/odom_data_rgb/dataset/ --output_dir=/cmlscratch/arjgpt27/projects/CMSC733/output_pose_resnet_ssim/ --ckpt_file=/cmlscratch/arjgpt27/projects/CMSC733/checkpoints_resnet_ssim/model-118028 --test_seq 9
+
+ Pose Evaluation: python kitti_eval/eval_pose.py --gtruth_dir /cmlscratch/arjgpt27/projects/CMSC733/odom_data_rgb/ground_truth/ground_truth/09/ --pred_dir /cmlscratch/arjgpt27/projects/CMSC733/output_pose_resnet_ssim/9/
