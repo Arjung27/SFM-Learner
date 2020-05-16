@@ -1,0 +1,137 @@
+{'?': <absl.app.HelpFlag object at 0x7f35624f2d68>,
+ 'alsologtostderr': <absl.flags._flag.BooleanFlag object at 0x7f35b7111390>,
+ 'batch_size': <absl.flags._flag.Flag object at 0x7f35624f27f0>,
+ 'beta1': <absl.flags._flag.Flag object at 0x7f356279e9b0>,
+ 'checkpoint_dir': <absl.flags._flag.Flag object at 0x7f35627b1128>,
+ 'continue_train': <absl.flags._flag.BooleanFlag object at 0x7f35624f2cc0>,
+ 'dataset_dir': <absl.flags._flag.Flag object at 0x7f35c2acf5c0>,
+ 'explain_reg_weight': <absl.flags._flag.Flag object at 0x7f35624f2748>,
+ 'help': <absl.app.HelpFlag object at 0x7f35624f2d68>,
+ 'helpfull': <absl.app.HelpfullFlag object at 0x7f35624f2e48>,
+ 'helpshort': <absl.app.HelpshortFlag object at 0x7f35624f2dd8>,
+ 'helpxml': <absl.app.HelpXMLFlag object at 0x7f35624f2eb8>,
+ 'img_height': <absl.flags._flag.Flag object at 0x7f35624f2898>,
+ 'img_width': <absl.flags._flag.Flag object at 0x7f35624f2940>,
+ 'init_checkpoint_file': <absl.flags._flag.Flag object at 0x7f35627b1c18>,
+ 'learning_rate': <absl.flags._flag.Flag object at 0x7f35627b1d68>,
+ 'log_dir': <absl.flags._flag.Flag object at 0x7f35b71117b8>,
+ 'logtostderr': <absl.flags._flag.BooleanFlag object at 0x7f35b71076d8>,
+ 'max_steps': <absl.flags._flag.Flag object at 0x7f35624f2b70>,
+ 'num_scales': <absl.flags._flag.Flag object at 0x7f35624f2a58>,
+ 'num_source': <absl.flags._flag.Flag object at 0x7f35624f29e8>,
+ 'only_check_args': <absl.flags._flag.BooleanFlag object at 0x7f35b711a080>,
+ 'op_conversion_fallback_to_while_loop': <absl.flags._flag.BooleanFlag object at 0x7f356e1a8278>,
+ 'pdb_post_mortem': <absl.flags._flag.BooleanFlag object at 0x7f3570824400>,
+ 'profile_file': <absl.flags._flag.Flag object at 0x7f35b7111f98>,
+ 'run_with_pdb': <absl.flags._flag.BooleanFlag object at 0x7f357080f2b0>,
+ 'run_with_profiling': <absl.flags._flag.BooleanFlag object at 0x7f35b7111ef0>,
+ 'save_latest_freq': <absl.flags._flag.Flag object at 0x7f35624f2c88>,
+ 'seq_length': <absl.flags._flag.Flag object at 0x7f35624f2ac8>,
+ 'showprefixforinfo': <absl.flags._flag.BooleanFlag object at 0x7f35b7111a58>,
+ 'smooth_weight': <absl.flags._flag.Flag object at 0x7f35624f2668>,
+ 'stderrthreshold': <absl.logging._StderrthresholdFlag object at 0x7f35b7111940>,
+ 'summary_freq': <absl.flags._flag.Flag object at 0x7f35624f2be0>,
+ 'test_random_seed': <absl.flags._flag.Flag object at 0x7f35693f6ef0>,
+ 'test_randomize_ordering_seed': <absl.flags._flag.Flag object at 0x7f3569406860>,
+ 'test_srcdir': <absl.flags._flag.Flag object at 0x7f35693fc198>,
+ 'test_tmpdir': <absl.flags._flag.Flag object at 0x7f35694067b8>,
+ 'use_cprofile_for_profiling': <absl.flags._flag.BooleanFlag object at 0x7f35b7111fd0>,
+ 'v': <absl.logging._VerbosityFlag object at 0x7f35b7111828>,
+ 'verbosity': <absl.logging._VerbosityFlag object at 0x7f35b7111828>,
+ 'xml_output_file': <absl.flags._flag.Flag object at 0x7f3569406940>}
+Trainable variables: 
+depth_net/cnv1/weights:0
+depth_net/cnv1/biases:0
+depth_net/cnv1b/weights:0
+depth_net/cnv1b/biases:0
+depth_net/cnv2/weights:0
+depth_net/cnv2/biases:0
+depth_net/cnv2b/weights:0
+depth_net/cnv2b/biases:0
+depth_net/cnv3/weights:0
+depth_net/cnv3/biases:0
+depth_net/cnv3b/weights:0
+depth_net/cnv3b/biases:0
+depth_net/cnv4/weights:0
+depth_net/cnv4/biases:0
+depth_net/cnv4b/weights:0
+depth_net/cnv4b/biases:0
+depth_net/cnv5/weights:0
+depth_net/cnv5/biases:0
+depth_net/cnv5b/weights:0
+depth_net/cnv5b/biases:0
+depth_net/cnv6/weights:0
+depth_net/cnv6/biases:0
+depth_net/cnv6b/weights:0
+depth_net/cnv6b/biases:0
+depth_net/cnv7/weights:0
+depth_net/cnv7/biases:0
+depth_net/cnv7b/weights:0
+depth_net/cnv7b/biases:0
+depth_net/upcnv7/weights:0
+depth_net/upcnv7/biases:0
+depth_net/icnv7/weights:0
+depth_net/icnv7/biases:0
+depth_net/upcnv6/weights:0
+depth_net/upcnv6/biases:0
+depth_net/icnv6/weights:0
+depth_net/icnv6/biases:0
+depth_net/upcnv5/weights:0
+depth_net/upcnv5/biases:0
+depth_net/icnv5/weights:0
+depth_net/icnv5/biases:0
+depth_net/upcnv4/weights:0
+depth_net/upcnv4/biases:0
+depth_net/icnv4/weights:0
+depth_net/icnv4/biases:0
+depth_net/disp4/weights:0
+depth_net/disp4/biases:0
+depth_net/upcnv3/weights:0
+depth_net/upcnv3/biases:0
+depth_net/icnv3/weights:0
+depth_net/icnv3/biases:0
+depth_net/disp3/weights:0
+depth_net/disp3/biases:0
+depth_net/upcnv2/weights:0
+depth_net/upcnv2/biases:0
+depth_net/icnv2/weights:0
+depth_net/icnv2/biases:0
+depth_net/disp2/weights:0
+depth_net/disp2/biases:0
+depth_net/upcnv1/weights:0
+depth_net/upcnv1/biases:0
+depth_net/icnv1/weights:0
+depth_net/icnv1/biases:0
+depth_net/disp1/weights:0
+depth_net/disp1/biases:0
+pose_exp_net/cnv1/weights:0
+pose_exp_net/cnv1/biases:0
+pose_exp_net/cnv2/weights:0
+pose_exp_net/cnv2/biases:0
+pose_exp_net/cnv3/weights:0
+pose_exp_net/cnv3/biases:0
+pose_exp_net/cnv4/weights:0
+pose_exp_net/cnv4/biases:0
+pose_exp_net/cnv5/weights:0
+pose_exp_net/cnv5/biases:0
+pose_exp_net/pose/cnv6/weights:0
+pose_exp_net/pose/cnv6/biases:0
+pose_exp_net/pose/cnv7/weights:0
+pose_exp_net/pose/cnv7/biases:0
+pose_exp_net/pose/pred/weights:0
+pose_exp_net/pose/pred/biases:0
+parameter_count = 33187568
+Epoch: [ 1] [  100/ 3106] time: 0.2374/it loss: 1.291
+Epoch: [ 1] [  200/ 3106] time: 0.0809/it loss: 0.972
+Epoch: [ 1] [  300/ 3106] time: 0.0810/it loss: 1.218
+Epoch: [ 1] [  400/ 3106] time: 0.0809/it loss: 0.841
+Epoch: [ 1] [  500/ 3106] time: 0.0808/it loss: 1.447
+Epoch: [ 1] [  600/ 3106] time: 0.0806/it loss: 1.267
+Epoch: [ 1] [  700/ 3106] time: 0.0809/it loss: 1.030
+Epoch: [ 1] [  800/ 3106] time: 0.0808/it loss: 0.867
+Epoch: [ 1] [  900/ 3106] time: 0.0809/it loss: 1.045
+Epoch: [ 1] [ 1000/ 3106] time: 0.0810/it loss: 0.872
+Epoch: [ 1] [ 1100/ 3106] time: 0.0811/it loss: 1.088
+Epoch: [ 1] [ 1200/ 3106] time: 0.0812/it loss: 1.220
+Epoch: [ 1] [ 1300/ 3106] time: 0.0808/it loss: 1.065
+Epoch: [ 1] [ 1400/ 3106] time: 0.0809/it loss: 1.189

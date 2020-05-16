@@ -1,0 +1,3 @@
+ Run Evaluation: python kitti_eval/eval_depth.py --kitti_dir=/cmlscratch/arjgpt27/projects/CMSC733/kitti_data/ --pred_file=/cmlscratch/arjgpt27/projects/CMSC733/output_depth/model-198784.npy
+
+ Generate Predictions: python test_kitti_depth.py --dataset_dir=/cmlscratch/arjgpt27/projects/CMSC733/kitti_data/ --output_dir=/cmlscratch/arjgpt27/projects/CMSC733/output_depth/ --ckpt_file=/cmlscratch/arjgpt27/projects/CMSC733/checkpoints_original/model-198784
