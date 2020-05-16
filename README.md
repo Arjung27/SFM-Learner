@@ -1,5 +1,5 @@
 # Overview
-This repository has been made as a submission for CMSC733 course at UMD. This project enhances the results of the original implementation of SfMLearner. The base code has been implemented from https://github.com/tinghuiz/SfMLearner. The code includes the implementation of SSIM loss and Resnet18 architecture for dpth prediction. The overall results improve by 2% than the original paper.
+This repository has been made as a submission for CMSC733 course at UMD. This project enhances the results of the original implementation of SfMLearner. The base code has been implemented from https://github.com/tinghuiz/SfMLearner. The code includes the implementation of SSIM loss and Resnet18 architecture for depth prediction. The overall results improve by 2% than the original paper.
 
 # SfMLearner [original readme]
 This codebase implements the system described in the paper:
