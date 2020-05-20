@@ -15,19 +15,11 @@ def plot_trajectory(poses_gtruth, directory):
     for i, pose in enumerate(poses_gtruth[1:]):
 
         new_x, new_y, new_z = prev_pose[0:3, 3]
-        print(i, new_x, new_y, new_z)
         ax.scatter(new_x, new_z, color='g', marker='.')
         prev_pose = np.matmul(prev_pose, pose)
 
     new_x, new_y, new_z = prev_pose[0:3, 3]
     ax.scatter(new_x, new_z, color='g')
-    # ax.grid()
-    # for axi in (ax.xaxis, ax.yaxis):
-    #     for tic in axi.get_major_ticks():
-    #         tic.tick1On = tic.tick2On = False
-    #         tic.label1On = tic.label2On = False
-    # plt.xticks([])
-    # plt.yticks([])
     plt.savefig(directory + '.png')
 
 
@@ -71,7 +63,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--gtruth', type = str, default = '/cmlscratch/arjgpt27/projects/CMSC733/odom_data_rgb/ground_truth/ground_truth')
     parser.add_argument('--seq', type = str, default = '9')
-    parser.add_argument('--pred', type = str, default = '/cmlscratch/arjgpt27/projects/CMSC733/output_pose_resnet_ssim')
+    parser.add_argument('--pred', type = str, default = '/cmlscratch/arjgpt27/projects/CMSC733/output_pose_resnet')
     Flags = parser.parse_args()
 
     experiment_name = Flags.pred.split('/')[-1]
